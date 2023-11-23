@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="fr-fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Calculatrice</title>
+  </head>
+  <body>
+    <table class="codesnippet">
+      <thead>
+        <th>Calculer</th>
+      </thead>
+    </table>
+    <table border="5">
+      <tr>
+        <td colspan="10"><input id="output" /></td>
+      </tr>
+      <tr>
+        <td><button onclick="afficher ('7')">7</button></td>
+        <td><button onclick="afficher ('8')">8</button></td>
+        <td><button onclick="afficher ('9')">9</button></td>
+        <td><button onclick="afficher ('/')">/</button></td>
+        <td><button onclick="effacer ()">AC</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="afficher ('4')">4</button></td>
+        <td><button onclick="afficher ('5')">5</button></td>
+        <td><button onclick="afficher ('6')">6</button></td>
+        <td><button onclick="afficher ('-')">-</button></td>
+        <td><button onclick="effacer ()">%</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="afficher ('1')">1</button></td>
+        <td><button onclick="afficher ('2')">2</button></td>
+        <td><button onclick="afficher ('3')">3</button></td>
+        <td><button onclick="afficher ('*')">*</button></td>
+        <td><button onclick="effacer ()">( )</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="afficher ('00')">00</button></td>
+        <td><button onclick="afficher ('0')">0</button></td>
+        <td><button onclick="afficher ('.')">.</button></td>
+        <td><button onclick="afficher ('+')">+</button></td>
+
+        <td><button onclick="calculer ('=')">=</button></td>
+      </tr>
+    </table>
+    <script src="/style.js"></script>
+  </body>
+</html>

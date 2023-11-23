@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  box-sizing: border-box;
+}
+td button {
+  width: 100%;
+  font-weight: 800 !important;
+}
+table th,
+table td {
+  border: 1px solid #eaeaea;
+  padding: 6px 10px;
+  font-size: 700;
+}
+table.codesnippet th {
+  height: 50px;
+  background-color: #272b33;
+  color: #fff;
+  padding-left: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 20px;
+}
+table.codesnippet button {
+  color: buttontext;
+  border-color: buttonface;
+  padding: 5px 6px;
+}
+td button {
+  align-items: center;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0 0 1.5em;
+  width: 50%;
+}
+.colspan {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+.colspan input {
+  text-align: right;
+  flex: 1;
+  font-style: 45px;
+  box-shadow: none;
+}
